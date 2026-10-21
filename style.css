@@ -1,0 +1,46 @@
+.html {
+    background-color: rgb(230, 255, 255);
+    font-family: "Castoro", serif;
+}
+
+body {
+    margin: 0;
+}
+
+.site-header {
+    background-color: pink;
+}
+
+.sidebar {
+    background-color: aquamarine;
+    flex: 0 0 200px;
+}
+
+.site-main {
+    background-color: yellow;
+}
+
+.site-footer {
+    background-color: plum;
+}
+
+.wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.two-col {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.site-links {
+    display: flex;
+
+}
+
+.site-link {
+    text-decoration: none;
+}
