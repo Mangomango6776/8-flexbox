@@ -1,8 +1,7 @@
 html {
     background-color: rgb(255, 241, 220);
-    font-family: "Average Sans", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    font-family: "superpop-variable", sans-serif;
+    font-variation-settings: "wght" 200;
 }
 
 body {
