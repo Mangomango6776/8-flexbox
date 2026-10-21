@@ -1,6 +1,8 @@
-.html {
-    background-color: rgb(230, 255, 255);
-    font-family: "Castoro", serif;
+html {
+    background-color: rgb(255, 241, 220);
+    font-family: "Average Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 body {
@@ -8,26 +10,32 @@ body {
 }
 
 .site-header {
-    background-color: pink;
+    background-color: lightpink;
+    padding: 20px;
+    margin-top: 20px;
 }
 
 .sidebar {
-    background-color: aquamarine;
+    background-color: lightskyblue;
     flex: 0 0 200px;
+    padding: 20px;
 }
 
 .site-main {
-    background-color: yellow;
+    background-color: lightyellow;
+    padding: 20px;
 }
 
 .site-footer {
-    background-color: plum;
+    background-color: lightsteelblue;
+    padding: 20px;
 }
 
 .wrapper {
-    max-width: 600px;
+    max-width: 800px;
     margin: 0 auto;
     background-color: white;
+    padding: 0px;
 }
 
 .two-col {
@@ -38,6 +46,9 @@ body {
 
 .site-links {
     display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 0px;
 }
 
 .site-link {
